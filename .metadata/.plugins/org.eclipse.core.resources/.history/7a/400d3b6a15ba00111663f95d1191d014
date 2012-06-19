@@ -32,7 +32,7 @@ public class FirstExample extends JPanel {
        {
     	   int x = Math.abs(r.nextInt()) % w;
     	   int y = Math.abs(r.nextInt()) % h;
-    	   g2d.drawOval(x, y, 2, 2);
+    	   g2d.drawLine(x, y, x, y);
        }
     }
 
