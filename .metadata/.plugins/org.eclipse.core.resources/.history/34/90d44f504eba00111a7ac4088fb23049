@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.util.*;
 
 public class GamePanel extends JPanel 
 {
@@ -14,6 +13,7 @@ public class GamePanel extends JPanel
 		parentWindow.setSize(800, 600);
 		parentWindow.setDefaultCloseOperation((JFrame.EXIT_ON_CLOSE));
 		parentWindow.setVisible(true);
+		
 	}
 	
 	public void paint(Graphics g)
