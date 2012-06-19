@@ -10,3 +10,15 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.ui 4 4 2012-06-19 14:31:37.330
 !MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-06-19 22:13:43.617 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2012-06-19 22:16:54.902
+!MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.eclipse.ui 4 4 2012-06-19 22:18:46.449
+!MESSAGE Invalid preference page path: XML Syntax
