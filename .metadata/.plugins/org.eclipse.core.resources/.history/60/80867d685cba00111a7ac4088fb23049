@@ -1,7 +1,4 @@
 import javax.swing.*;
-
-import org.w3c.dom.Element;
-
 import java.awt.*;
 import java.util.*;
 
@@ -19,20 +16,10 @@ public class GamePanel extends JPanel
 		parentWindow.setVisible(true);
 	}
 	
-	private Collection<Element> elements = new ArrayList<Element>();
-	
-	public GamePanel()
-	{
-		elements.add(new Rectangle(10, 10, 32, 32));
-		elements.add(new Rectangle(20, 20, 32, 32));
-	}
-	
 	public void paint(Graphics g)
 	{
-		Iterator iterator = elements.iterator();
-		
-		while(iterator.hasNext())
-			((Element) iterator.next()).draw(g);
+		g.setColor(Color.RED);
+		g.drawRect(10, 10, 50, 50);
 	}
 	
 }

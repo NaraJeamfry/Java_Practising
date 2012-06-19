@@ -29,10 +29,8 @@ public class GamePanel extends JPanel
 	
 	public void paint(Graphics g)
 	{
-		Iterator iterator = elements.iterator();
-		
-		while(iterator.hasNext())
-			((Element) iterator.next()).draw(g);
+		g.setColor(Color.RED);
+		g.drawRect(10, 10, 50, 50);
 	}
 	
 }

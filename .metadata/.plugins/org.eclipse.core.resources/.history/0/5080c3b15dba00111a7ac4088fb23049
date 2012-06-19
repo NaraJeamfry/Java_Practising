@@ -32,7 +32,7 @@ public class GamePanel extends JPanel
 		Iterator iterator = elements.iterator();
 		
 		while(iterator.hasNext())
-			((Element) iterator.next()).draw(g);
+			((Rectangle) iterator.next()).draw(g);
 	}
 	
 }
