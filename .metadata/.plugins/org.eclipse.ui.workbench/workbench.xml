@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="26" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="112" y="0">
+<window height="768" maximized="true" width="652" x="714" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -22,6 +22,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -33,22 +34,31 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FirstExample.java" partName="FirstExample.java" path="C:/Users/Jeamfry/Documents/GitHub/Java_Practising/ZetCode Tutorials/src/FirstExample.java" title="FirstExample.java" tooltip="ZetCode Tutorials/src/FirstExample.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ZetCode Tutorials/src/FirstExample.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="869" selectionTopPixel="253"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlatformerGame.java" partName="PlatformerGame.java" path="C:/Users/Jeamfry/Documents/GitHub/Platformer_Game-test/src/com/narajeamfry/mygdxgame/PlatformerGame.java" title="PlatformerGame.java" tooltip="Platformer_Game-test/src/com/narajeamfry/mygdxgame/PlatformerGame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Platformer_Game-test/src/com/narajeamfry/mygdxgame/PlatformerGame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="615" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GwtLauncher.java" partName="GwtLauncher.java" path="C:/Users/Jeamfry/Documents/GitHub/Platformer_Game-html/src/com/narajeamfry/mygdxgame/client/GwtLauncher.java" title="GwtLauncher.java" tooltip="Platformer_Game-html/src/com/narajeamfry/mygdxgame/client/GwtLauncher.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Platformer_Game-html/src/com/narajeamfry/mygdxgame/client/GwtLauncher.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/Jeamfry/Documents/GitHub/Platformer_Game-desktop-test/src/com/narajeamfry/mygdxgame/Main.java" title="Main.java" tooltip="Platformer_Game-desktop-test/src/com/narajeamfry/mygdxgame/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Platformer_Game-desktop-test/src/com/narajeamfry/mygdxgame/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="406" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -57,8 +67,11 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
-<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1340108747404">
+<viewState group_libraries="1" layout="2" linkWithEditor="1" rootMode="1" workingSetName="Aggregate for window 1340108747404">
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
@@ -159,6 +172,8 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -183,20 +198,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.16241299" ratioLeft="210" ratioRight="1083" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -224,67 +241,168 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ZetCode Tutorials/src/FirstExample.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bornemix&apos;s/src/GamePanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bornemix&apos;s/src/Element.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bornemix&apos;s/src/Rectangle.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Bornemix&apos;s/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Crush/src/crush/CrushGame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Platformer_Game-test/src/com/narajeamfry/mygdxgame/PlatformerGame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bornemix&apos;s/src/Rectangle.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Platformer_Game-desktop-test/src/com/narajeamfry/mygdxgame/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Platformer_Game-android-test/src/com/narajeamfry/mygdxgame/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Platformer_Game-html/src/com/narajeamfry/mygdxgame/client/GwtLauncher.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Platformer_Game-html/src/com/narajeamfry/mygdxgame/client/GwtLauncher.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Platformer_Game-desktop-test/src/com/narajeamfry/mygdxgame/Main.java"/>
 </editors>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="1231" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="20" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="384" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="119" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="432" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="154" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="718" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="186" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="513" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="215" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="550" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="272" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="716" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="272" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="808" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="852" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="238" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="853" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="245" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="1004" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="246" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="1005" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="257" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="1107" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="258" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="1108" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="1142" y="0"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="217" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="1186" y="0"/>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="552" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="1219" y="0"/>
+<item historyLabel="Element.java" index="1">
+<position info="not_deleted" x="45" y="0"/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="883" y="0"/>
+<item historyLabel="GamePanel.java" index="0">
+<position/>
 </item>
-<item historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="885" y="1"/>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="217" y="0"/>
 </item>
-<item active="true" historyLabel="FirstExample.java" index="0">
-<position info="not_deleted" x="889" y="0"/>
+<item historyLabel="Element.java" index="1">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="553" y="0"/>
+</item>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="Element.java" index="1">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="601" y="0"/>
+</item>
+<item historyLabel="Element.java" index="1">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="601" y="0"/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="549" y="3"/>
+</item>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="766" y="0"/>
+</item>
+<item historyLabel="Element.java" index="1">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item historyLabel="Rectangle.java" index="2">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="766" y="0"/>
+</item>
+<item historyLabel="Element.java" index="1">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="488" y="0"/>
+</item>
+<item historyLabel="ArrayList.class" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GamePanel.java" index="0">
+<position info="not_deleted" x="793" y="0"/>
+</item>
+<item historyLabel="CrushGame.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PlatformerGame.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Rectangle.java" index="6">
+<position info="not_deleted" x="60" y="0"/>
+</item>
+<item historyLabel="PlatformerGame.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Main.java" index="7">
+<position info="not_deleted" x="341" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GwtLauncher.java" index="9">
+<position info="not_deleted" x="476" y="0"/>
+</item>
+<item historyLabel="PlatformerGame.java" index="5">
+<position info="not_deleted" x="1610" y="0"/>
+</item>
+<item historyLabel="GwtLauncher.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Main.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PlatformerGame.java" index="5">
+<position info="not_deleted" x="615" y="0"/>
+</item>
+<item active="true" historyLabel="Main.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -292,6 +410,11 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -304,6 +427,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Platformer_Game-desktop-test/src/com/narajeamfry/mygdxgame/Main.java">
+<persistable path="/Platformer_Game-desktop-test/src/com/narajeamfry/mygdxgame/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GwtLauncher.java" tooltip="Platformer_Game-html/src/com/narajeamfry/mygdxgame/client/GwtLauncher.java">
+<persistable path="/Platformer_Game-html/src/com/narajeamfry/mygdxgame/client/GwtLauncher.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Platformer_Game-android-test/src/com/narajeamfry/mygdxgame/MainActivity.java">
+<persistable path="/Platformer_Game-android-test/src/com/narajeamfry/mygdxgame/MainActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlatformerGame.java" tooltip="Platformer_Game-test/src/com/narajeamfry/mygdxgame/PlatformerGame.java">
+<persistable path="/Platformer_Game-test/src/com/narajeamfry/mygdxgame/PlatformerGame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CrushGame.java" tooltip="Crush/src/crush/CrushGame.java">
+<persistable path="/Crush/src/crush/CrushGame.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" tooltip="java.util.ArrayList">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Bornemix&apos;s/C:\/Program Files\/Java\/jre7\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rectangle.java" tooltip="Bornemix&apos;s/src/Rectangle.java">
+<persistable path="/Bornemix&apos;s/src/Rectangle.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Element.java" tooltip="Bornemix&apos;s/src/Element.java">
+<persistable path="/Bornemix&apos;s/src/Element.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GamePanel.java" tooltip="Bornemix&apos;s/src/GamePanel.java">
+<persistable path="/Bornemix&apos;s/src/GamePanel.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FirstExample.java" tooltip="ZetCode Tutorials/src/FirstExample.java">
 <persistable path="/ZetCode Tutorials/src/FirstExample.java"/>
 </file>
